@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+
+    function myFunction() {
+        reg = new RegExp('^[hdn]ot.*[hdn]o+t$');
+        
+        if(reg.test(document.getElementById("input_string").value))
+        {
+            document.getElementById("result").value="true";
+        }
+        else
+        {
+            document.getElementById("result").value="false";
+        }
+       
+    }
+</script>
+    <h3>Enter the string</h3>
+    <input id="input_string" type="text">
+    <button onclick="myFunction()" id="check" type="button">Check</button>
+    <h3>Answer</h3>
+    <input id="result" type="text">
+</body>
+</html>

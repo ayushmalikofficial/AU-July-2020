@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+
+    function myFunction() {
+        
+        var array=[0,10,-3,20,35,1,45,50,93];
+        //document.getElementById("initial").value=array.toString();
+        
+        var sorted_array=array.sort(function(a, b){return a - b});
+        document.getElementById("result1").value=sorted_array.toString();
+        
+        var filtered_array=sorted_array.filter(function(item) {
+                                                return item>10;
+                                                });
+        document.getElementById("result2").value=filtered_array.toString();
+        console.log("Function is called");
+
+        var added_array=filtered_array.map(function(item) {
+                                                return ++item;
+                                                });
+
+        document.getElementById("result3").value=added_array.toString();
+        
+        document.getElementById("result4").value=added_array.splice(0,4).toString();
+        
+        }
+       
+</script>
+    <h3>Initial Array Values</h3>
+    <input id="initial" type="text" value="0,10,-3,20,35,1,45,50,93">
+    
+    <button onclick="myFunction()" id="check" type="button">Start Performing Operations</button>
+    <h3>Sorted Array</h3>
+    <input id="result1" type="text">
+    <h3>Array after filtering only the values greater than 10</h3>
+    <input id="result2" type="text">
+    <h3>Array after adding 1</h3>
+    <input id="result3" type="text">
+    <h3>Displaying elements 1-4 (indexes 0 to 3 both inclusive) </h3>
+    <input id="result4" type="text">
+
+</body>
+</html>
