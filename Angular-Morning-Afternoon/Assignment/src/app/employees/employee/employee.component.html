@@ -1,0 +1,46 @@
+<mat-toolbar>
+  <span>Employee Record</span>
+  <span class="fill-remaining-space"></span>
+  <button class="btn-dialog-close" mat-stroked-button (click)="onClose()" tabIndex="-1"><mat-icon>clear</mat-icon></button>
+</mat-toolbar>
+
+<form [formGroup]="service.form" class="normal-form" (submit)="onSubmit()"  > <!-- (submit)="onSubmit()" -->
+
+      <div class="controles-container" >
+        <input type="hidden" formControlName="$key">
+
+        <mat-form-field>
+          <input formControlName="firstName" matInput placeholder="First Name*">
+          <mat-error>This field is mandatory.</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <input formControlName="lastName" matInput placeholder="Last Name*">
+          <mat-error>This field is mandatory.</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <input formControlName="age" matInput placeholder="Age">
+          <mat-error >Age must be a number.</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <input formControlName="empID" matInput placeholder="Employee ID*">
+          <mat-error *ngIf="service.form.controls['empID'].errors?.required">This field is mandatory.</mat-error>
+          <mat-error *ngIf="service.form.controls['empID'].errors?.pattern">Employee ID must be a number.</mat-error>
+         </mat-form-field>
+
+        <mat-form-field>
+          <input formControlName="city" matInput placeholder="City">
+        </mat-form-field>
+     </div>
+     <div>
+      <button mat-raised-button color="primary" type="submit" [disabled]="service.form.invalid">Submit</button>
+     </div>
+
+
+
+
+
+
+
+</form>
