@@ -3,31 +3,24 @@ package com.company;
 import java.io.File;
 import java.util.Scanner;
 
+class FileCount{
 
-public class Main {
 
     //Depth: Is used for keeping track of the level of directories and files
 
-
     //----------Recursive Function to Count Files and Directories-----------
-
-    public static int[] File_Counter(File F, String Depth)
+    int[] File_Counter(File F,String Depth )
     {
         //Current Directory
         System.out.println(Depth+"---D : "+F.getName());
-
         Depth += "   |";
-
         File list[] = F.listFiles();
 
         // For Counting Files and Directory in the Current Directory
         int FileCount =0, DirectoryCount = 0;
-        //
         int TotalFileCount =0, TotalDirectoryCount = 0;
 
-
         //========================Counter==========================
-
         for (File object : list) {
             //If object is a Directory
             if(object.isDirectory())
@@ -35,9 +28,10 @@ public class Main {
                 DirectoryCount++;
                 TotalDirectoryCount++;
                 // Recursive Call
-                int val[] = File_Counter(object,Depth);
-                TotalFileCount += val[0];
-                TotalDirectoryCount += val[1];
+                int values[];
+                values = File_Counter(object,Depth);
+                TotalFileCount += values[0];
+                TotalDirectoryCount += values[1];
 
             }
             //If object is a File
@@ -58,16 +52,31 @@ public class Main {
         return new int[]{TotalFileCount,TotalDirectoryCount};
     }
 
-    //-------------------Main Function---------------------------
+
+
+}
+
+public class Main {
+
+
+    //-------------------Main Function--------------------
 
     public static void main(String[] args) {
 
-        Scanner input =  new Scanner(System.in);
-        System.out.println("Enter path : ");
-        String path = input.nextLine();
+        Scanner input;
+        String path;
+        FileCount obj;
+        File F;
 
-        File file = new File(path);
-        File_Counter(file,"");
+        input =  new Scanner(System.in);
+        System.out.println("Enter path : ");
+        path = input.nextLine();
+        F = new File(path);
+        obj= new FileCount();
+
+
+        obj.File_Counter(F,"");
+
     }
 
 }
