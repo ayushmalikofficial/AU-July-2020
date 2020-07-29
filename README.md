@@ -1,2 +1,2 @@
-1) Create a folder for each session - Format :  session name-Morning/Afternoon. Example: RDMS Concepts-Morning
-2) Commit your assignments inside the folder you created
+# AU-July-2020
+Assignments submitted by Ayush Malik for Accolite University, July 2020.
