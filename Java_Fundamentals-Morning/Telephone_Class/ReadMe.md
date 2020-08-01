@@ -4,12 +4,12 @@ The program Main.java contains 3 classes and an interface.
 
 ## Phone ##
 This interface specifies the following functions:
-* void call(): Make a Call to a Phone Number input by the user
+* void call(): Make a call to a phone Number input by the user
 * void call(String phone_number): Make a call to a given phone number [Contact]
-* void reDial(): Re-Dial the Last Called Number
-* void answer(Phone recv): Answer Call from another Phone Number named 'Recv'
-* void callLog(): Display Call History
-* void endCall(): End Current Call
+* void reDial(): Redial the last called number
+* void answer(Phone recv): Answer call from another phone number named 'Recv'
+* void callLog(): Display call history
+* void endCall(): End current call
 
 ## Telephone ##
 This class implements the phone interface.
