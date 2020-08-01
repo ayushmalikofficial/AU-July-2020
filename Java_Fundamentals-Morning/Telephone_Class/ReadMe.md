@@ -1,6 +1,6 @@
 # Phone #
 
-The program Main.java contains 3 classes and an Interface:
+The program Main.java contains 3 classes and an interface.
 
 ## Phone ##
 This interface specifies the following functions:
