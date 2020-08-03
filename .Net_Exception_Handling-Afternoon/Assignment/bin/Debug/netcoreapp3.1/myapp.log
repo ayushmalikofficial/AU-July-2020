@@ -1,0 +1,72 @@
+2020-08-03 19:32:07,654 [1] INFO Assignment.Program - Log is working
+2020-08-03 19:34:13,907 [1] INFO Assignment.Program - Log is working
+2020-08-03 21:38:04,400 [1] INFO Assignment.Program - Program Started Executing
+2020-08-03 21:38:04,642 [1] INFO Assignment.Program - File Read Successful
+2020-08-03 21:40:04,187 [1] INFO Assignment.Program - Program Started Executing
+2020-08-03 21:40:04,217 [1] INFO Assignment.Program - File Read Successful
+2020-08-03 21:40:42,357 [1] INFO Assignment.Program - Program Started Executing
+2020-08-03 21:40:43,991 [1] ERROR Assignment.Program -    at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at Assignment.Program.Main(String[] args) in C:\Users\Ayush Malik\source\repos\Assignment\Program.cs:line 23
+2020-08-03 21:40:43,993 [1] WARN Assignment.Program - File Read Successful
+2020-08-03 21:42:18,267 [1] INFO Assignment.Program - Program Started Executing
+2020-08-03 21:42:18,640 [1] ERROR Assignment.Program -    at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at Assignment.Program.Main(String[] args) in C:\Users\Ayush Malik\source\repos\Assignment\Program.cs:line 23
+2020-08-03 21:42:18,642 [1] WARN Assignment.Program - File Read Failed
+2020-08-03 21:44:19,289 [1] INFO Assignment.Program - Program Started Executing
+2020-08-03 21:44:19,331 [1] INFO Assignment.Program - File Read Successfully
+2020-08-03 21:44:44,038 [1] INFO Assignment.Program - Program Started Executing
+2020-08-03 21:44:44,070 [1] INFO Assignment.Program - File Read Successfully
+2020-08-03 21:44:58,719 [1] INFO Assignment.Program - Program Started Executing
+2020-08-03 21:44:58,895 [1] ERROR Assignment.Program -    at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at Assignment.Program.Main(String[] args) in C:\Users\Ayush Malik\source\repos\Assignment\Program.cs:line 21
+2020-08-03 21:44:58,896 [1] WARN Assignment.Program - File Read Failed
+2020-08-03 21:59:35,000 [1] INFO Assignment.Program - Program Started Executing
+2020-08-03 21:59:35,149 [1] ERROR Assignment.Program -    at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at Assignment.Program.Main(String[] args) in C:\Users\Ayush Malik\source\repos\Assignment\Program.cs:line 21
+2020-08-03 21:59:35,151 [1] WARN Assignment.Program - File Read Failed
+2020-08-03 21:59:35,151 [1] INFO Assignment.Program - 
+Program Execution Ended
+
+
+2020-08-03 21:59:51,968 [1] INFO Assignment.Program - Program Started Executing
+2020-08-03 21:59:52,099 [1] ERROR Assignment.Program -    at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at Assignment.Program.Main(String[] args) in C:\Users\Ayush Malik\source\repos\Assignment\Program.cs:line 21
+2020-08-03 21:59:52,101 [1] WARN Assignment.Program - File Read Failed
+2020-08-03 21:59:52,101 [1] INFO Assignment.Program - Program Execution Ended
+
+
+2020-08-03 22:00:44,464 [1] INFO Assignment.Program - Program Started Executing
+2020-08-03 22:00:44,497 [1] INFO Assignment.Program - File Read Successfully
+2020-08-03 22:00:44,497 [1] INFO Assignment.Program - Program Execution Ended
+
+
