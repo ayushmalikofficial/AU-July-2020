@@ -1,0 +1,13 @@
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\bin\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.exe
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\bin\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.deps.json
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\bin\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.runtimeconfig.json
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\bin\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.runtimeconfig.dev.json
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\bin\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.dll
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\bin\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.pdb
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\obj\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.csprojAssemblyReference.cache
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\obj\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.AssemblyInfoInputs.cache
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\obj\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.AssemblyInfo.cs
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\obj\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.csproj.CoreCompileInputs.cache
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\obj\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.dll
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\obj\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.pdb
+C:\Users\Ayush Malik\source\repos\Delegate_and_Event_Handlers\obj\Debug\netcoreapp3.1\Delegate_and_Event_Handlers.genruntimeconfig.cache
