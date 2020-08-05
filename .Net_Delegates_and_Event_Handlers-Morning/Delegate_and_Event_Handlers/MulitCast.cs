@@ -49,7 +49,7 @@ namespace Delegate_and_Event_Handlers
             input_2 = Console.ReadLine();
            //Calling Function 1 and 2 with Delegate obj
             obj(input_1,input_2);
-            Console.WriteLine("Value of Property String: "+property);
+            Console.WriteLine("Value of string property: "+property);
         }
 
     }
